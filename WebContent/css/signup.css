@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+.ani{
+	height : 350px;
+  border: 2px solid;
+  	box-shadow: rgb(11, 21, 2);
+	width: 500px;
+	padding-right: 60px; 
+	   font-size: larger;
+	    font-style: italic;
+	
+	
+	
+}
+
+.image
+{
+padding: 50px;
+margin: 100px;
+	height: 30%;
+    width: 50%;
+}

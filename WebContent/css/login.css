@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+.body
+{
+    height: 100%;
+    width: 100%;
+}
+.first
+{
+    margin-right: 1250px;
+	margin-top: 80px;
+border: 2px solid ;
+height: 250px;
+width: 300px;
+padding-top: 60px;
+}
+.image{
+	width: 100%;
+}

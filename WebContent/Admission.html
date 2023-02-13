@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Admission Form</title>
+<style>
+   
+h2{
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: blue;
+ text-align: center; 
+ text-decoration: underline;
+ 
+ 
+}
+table{
+ font-family: verdana; 
+ color:purple; 
+ font-size: 16px; 
+ font-style: italic;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 4px solid #000000;
+   box-shadow: 20px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+ width: 100%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+
+ 
+}
+input[type=submit], input[type=reset]{
+background-color:rgb(41, 62, 166);
+ width: 50%;
+ padding: 8px 12px;
+ margin: 5px 0;
+}
+
+</style>
+</head>
+<body>
+<h2>Admission Form</h2>
+<form action="StudentController" method="get">
+
+<table align="center" cellpadding = "20" width="80%">
+<tr>
+<td> First Name : </td>
+<td><input type="text" name="fname" maxlength="80" placeholder="First Name" />
+</td>
+</tr>
+<tr>
+<td>Last Name : </td>
+<td><input type="text" name="lname" maxlength="50" placeholder="Last Name"/>
+</td>
+</tr>
+<tr>
+<td>Email ID : </td>
+<td><input type="email" name="email" maxlength="400" placeholder="E-mail"/></td>
+</tr>
+<tr>
+<td>Mobile Number : </td>
+<td>
+<input type="text" name="phone" maxlength="100" placeholder="Mobile Number"/>
+</td>
+</tr>
+<tr>
+<td><label for="Gender">Gender :</label>
+ </td>
+<td>
+<select id="Gender">
+ 
+  <option value="Gender" selected>Gender</option>
+   <option value="Other">Other</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  
+</select>
+
+</td>
+</tr>
+<tr>
+<td>DOB : </td>
+<td>
+<input type="date" name="DOB" maxlength="10" placeholder="Birth-Date"/>
+
+</td>
+</tr>
+<tr>
+<td>Address : </td>
+<td><input type="text" name="address" maxlength="50" placeholder="Address" />
+</td>
+</tr>
+
+<tr>
+<td>City : </td>
+<td><input type="text" name="city" maxlength="50" placeholder="City"/>
+</td>
+</tr>
+<tr>
+<td>Pin Code : </td>
+<td><input type="text" name="pin" maxlength="6" placeholder="Pin-code"/>
+</td>
+</tr>
+<tr>
+<td>State : </td>
+<td><input type="text" name="state" maxlength="50" placeholder="State"/>
+</td>
+</tr>
+<tr>
+<td>Country : </td>
+<td><input type="text" name="county" placeholder="Country" /></td>
+</tr>
+<tr>
+<td>Hobbies : <br /></td>
+<td>
+<input type="text" name="hobbies" placeholder="Hobbies" />
+</td>
+</tr>
+<tr>
+<td>Qualification : <br /><br /></td>
+<td>
+<input type="text" name="qualification" placeholder="Qualification" />
+<br/>
+
+</td>
+</tr>
+<tr>
+<td>Courses      :</td>
+<td>
+<input type="text" name="course"  placeholder="Courses">
+
+<br>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>
